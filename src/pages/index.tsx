@@ -1,7 +1,10 @@
+import { Hero } from '@components/Hero';
+import { HomePageContainer } from './_styles';
+
 export default function Home() {
 	return (
-		<>
-			Hello World
-		</>
+		<HomePageContainer>
+			<Hero/>
+		</HomePageContainer>
 	)
 }

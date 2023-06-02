@@ -6,4 +6,9 @@ export default createGlobalStyle`
 		color: white;
 		height: 100%;
 	}
+	
+	a {
+		color: white;
+		text-decoration: none;
+	}
 `;
