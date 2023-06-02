@@ -7,11 +7,19 @@ interface ProjectCardProps {
 	description: string;
 	link: string;
 	tags: string[];
+	index: number;
 }
 
-export const ProjectCard: FC<ProjectCardProps> = ({ title, description, link, tags }) => {
+export const ProjectCard: FC<ProjectCardProps> = ({ title, description, link, tags, index }) => {
 	return (
-		<ProjectCardContainer href={link} target={'_blank'} rel={'noreferer'}>
+		<ProjectCardContainer
+			href={link}
+			target={'_blank'}
+			rel={'noreferer'}
+			initial={{ y: 50, opacity: 0 }}
+			animate={{ y: 0, opacity: 1 }}
+			transition={{ delay: 0.6 + (index * 0.1) }}
+		>
 			<ProjectTitle>
 				{title}
 			</ProjectTitle>

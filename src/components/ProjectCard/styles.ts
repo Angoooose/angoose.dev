@@ -1,6 +1,7 @@
+import { motion } from 'framer-motion';
 import styled from 'styled-components';
 
-export const ProjectCardContainer = styled.a`
+export const ProjectCardContainer = styled(motion.a)`
 	background-color: ${({ theme }) => theme.colors.primary[800]};
 	border-radius: 4px;
 	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.05);
