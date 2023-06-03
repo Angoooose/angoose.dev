@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }: AppProps) {
 			<Head>
 				<title>Angoose</title>
 				<meta name={'description'} content={'Full-Stack Software Engineer from the U.S.'} />
-				<meta name={'theme-color'} content={theme.colors.primaryGreen} />
+				<meta name={'theme-color'} content={theme.colors.primary[900]} />
 				<meta property={'og:site_name'} content={'Full-Stack Software Engineer'} />
 				<link rel="icon" href="/favicon.png" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
