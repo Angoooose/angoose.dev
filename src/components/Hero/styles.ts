@@ -2,7 +2,13 @@ import { motion } from 'framer-motion';
 import styled from 'styled-components';
 
 export const HeroContainer = styled.div`
+	display: flex;
+	flex-direction: column;
 
+	@media (max-width: 980px) {
+		align-items: center;
+		text-align: center;
+	}
 `;
 
 export const HeroGreeting = styled(motion.div)`

@@ -10,6 +10,26 @@ export default createGlobalStyle`
 
 	body {
 		padding: 0px 250px;
+
+		@media (max-width: 1640px) {
+			padding: 0px 150px;
+		}
+
+		@media (max-width: 1430px) {
+			padding: 0px 100px;
+		}
+
+		@media (max-width: 1320px) {
+			padding: 0px 50px;
+		}
+
+		@media (max-width: 900px) {
+			padding: 0px 25px;
+		}
+
+		@media (max-width: 570px) {
+			padding: 0px 10px;
+		}
 	}
 	
 	a {

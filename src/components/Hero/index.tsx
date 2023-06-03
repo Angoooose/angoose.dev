@@ -18,7 +18,7 @@ export const Hero: FC = () => {
 				I make things for the web.
 			</HeroTitle>
 			<HeroDescription transition={{ delay: 0.3 }} {...animationProps}>
-				I'm a full-stack software engineer from the U.S. I take passion in building modern and inuitive frontends, and performent and stateless backends.
+				I'm a full-stack software engineer from the U.S. I take passion in building modern and intuitive frontends, and performant and scaleable backends.
 			</HeroDescription>
 			<ProjectsButton transition={{ delay: 0.4 }} {...animationProps}>
 				<ArrowLongDownIcon height={30}/>
