@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import styled from 'styled-components';
 
 export const NavigationBarContainer = styled.div`
@@ -37,10 +38,13 @@ export const NavigationLinksContainer = styled.div`
 `;
 
 export const NavigationLink = styled.a`
+	cursor: pointer;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	justify-self: flex-end;
 	margin-top: 20px;
+	position: relative;
 	transition: opacity 0.25s;
 
 	& > :first-child {
@@ -60,3 +64,18 @@ NavigationLink.defaultProps = {
 	target: '_blank',
 	rel: 'noreferer',
 }
+
+export const NavigationCopiedMessage = styled(motion.div)`
+	color: ${({ theme }) => theme.colors.primaryGreen};
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	position: absolute;
+	top: -20px;
+
+	& > :first-child {
+		margin-right: 5px;
+	}
+`;
