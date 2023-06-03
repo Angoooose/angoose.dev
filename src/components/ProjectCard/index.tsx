@@ -28,8 +28,8 @@ export const ProjectCard: FC<ProjectCardProps> = ({ title, description, link, ta
 					{description}
 				</ProjectDescription>
 				<ProjectTagsContainer>
-					{tags.map((tag) => (
-						<ProjectTag>
+					{tags.map((tag, i) => (
+						<ProjectTag key={i}>
 							{tag}
 						</ProjectTag>
 					))}
