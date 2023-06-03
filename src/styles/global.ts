@@ -5,6 +5,11 @@ export default createGlobalStyle`
 		background-color: ${({ theme }) => theme.colors.primary[900]};
 		color: white;
 		height: 100%;
+		margin: 0px;
+	}
+
+	body {
+		padding: 0px 250px;
 	}
 	
 	a {

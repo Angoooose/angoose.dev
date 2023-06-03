@@ -20,19 +20,21 @@ export const ProjectCard: FC<ProjectCardProps> = ({ title, description, link, ta
 			animate={{ y: 0, opacity: 1 }}
 			transition={{ delay: 0.6 + (index * 0.1) }}
 		>
-			<ProjectTitle>
-				{title}
-			</ProjectTitle>
-			<ProjectDescription>
-				{description}
-			</ProjectDescription>
-			<ProjectTagsContainer>
-				{tags.map((tag) => (
-					<ProjectTag>
-						{tag}
-					</ProjectTag>
-				))}
-			</ProjectTagsContainer>
+			<div>
+				<ProjectTitle>
+					{title}
+				</ProjectTitle>
+				<ProjectDescription>
+					{description}
+				</ProjectDescription>
+				<ProjectTagsContainer>
+					{tags.map((tag) => (
+						<ProjectTag>
+							{tag}
+						</ProjectTag>
+					))}
+				</ProjectTagsContainer>
+			</div>
 			<ProjectLink>
 				<ArrowUpRightIcon height={15}/>
 				Open in GitHub

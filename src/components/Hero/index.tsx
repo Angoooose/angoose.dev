@@ -22,7 +22,7 @@ export const Hero: FC = () => {
 			</HeroDescription>
 			<ProjectsButton transition={{ delay: 0.4 }} {...animationProps}>
 				<ArrowLongDownIcon height={30}/>
-				View Projects
+				My Projects
 			</ProjectsButton>
 		</HeroContainer>
 	);

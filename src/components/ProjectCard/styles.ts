@@ -5,6 +5,9 @@ export const ProjectCardContainer = styled(motion.a)`
 	background-color: ${({ theme }) => theme.colors.primary[800]};
 	border-radius: 4px;
 	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.05);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	padding: 15px;
 
 	:hover {
@@ -15,13 +18,13 @@ export const ProjectCardContainer = styled(motion.a)`
 `;
 
 export const ProjectTitle = styled.div`
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 700;
 `;
 
 export const ProjectDescription = styled.div`
 	color: ${({ theme }) => theme.colors.primary[200]};
-	margin-top: 2.5px;
+	margin-top: 5px;
 `;
 
 export const ProjectTagsContainer = styled.div`

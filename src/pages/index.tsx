@@ -31,6 +31,27 @@ export default function Home() {
 						tags={['nextjs', 'tailwind', 'rabbitmq', 'socket.io']}
 						index={2}
 					/>
+					<ProjectCard
+						title={'Historian Bot'}
+						description={'A Discord bot that displays historical events either on command or automatically.'}
+						link={'https://github.com/HistoryLabs/historian-bot'}
+						tags={['typescript', 'mongodb']}
+						index={3}
+					/>
+					<ProjectCard
+						title={'hermes'}
+						description={'A truly temporary web-based messaging app. Accounts only last 48 hours.'}
+						link={'https://github.com/Angoooose/hermes'}
+						tags={['react', 'firebase']}
+						index={5}
+					/>
+					<ProjectCard
+						title={'Rolodex'}
+						description={'A contact management web application. Inspired by the roldexes of old.'}
+						link={'https://github.com/Angoooose/rolodex'}
+						tags={['react', 'firebase', 'tailwind']}
+						index={4}
+					/>
 				</ProjectsGrid>
 			</HomePageContainer>
 		</>

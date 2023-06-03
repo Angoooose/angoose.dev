@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const NavigationBarContainer = styled.div`
-	padding: 25px 100px;
+	padding: 25px 0px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const HomePageContainer = styled.div`
-	padding: 30px 100px;
+	padding: 50px 0px;
 `;
 
 export const ProjectsGrid = styled.div`
