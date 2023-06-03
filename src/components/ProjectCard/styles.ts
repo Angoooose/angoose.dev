@@ -9,8 +9,11 @@ export const ProjectCardContainer = styled(motion.a)`
 	flex-direction: column;
 	justify-content: space-between;
 	padding: 15px;
+	transition: background-color 0.25s;
 
 	:hover {
+		background-color: ${({ theme }) => theme.colors.primary[700]};
+
 		& > :last-child {
 			color: ${({ theme }) => theme.colors.primary[100]};
 		}
