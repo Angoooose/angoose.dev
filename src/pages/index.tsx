@@ -50,7 +50,7 @@ export default function Home() {
 						description={'A contact management web application. Inspired by the roldexes of old.'}
 						link={'https://github.com/Angoooose/rolodex'}
 						tags={['react', 'firebase', 'tailwind']}
-						index={4}
+						index={6}
 					/>
 				</ProjectsGrid>
 			</HomePageContainer>
