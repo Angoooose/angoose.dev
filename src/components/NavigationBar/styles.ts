@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const NavigationBarContainer = styled.div`
+export const NavigationBarContainer = styled.header`
 	padding: 25px 0px;
 	display: flex;
 	align-items: center;

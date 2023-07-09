@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { ProjectCardContainer, ProjectDescription, ProjectLink, ProjectTag, ProjectTagsContainer, ProjectTitle } from './styles';
+import { ProjectCardContainer, ProjectDescription, ProjectLink, ProjectTag, ProjectTagsContainer } from './styles';
 import { ArrowUpRightIcon } from '@heroicons/react/24/solid';
 
 interface ProjectCardProps {
@@ -21,9 +21,9 @@ export const ProjectCard: FC<ProjectCardProps> = ({ title, description, link, ta
 			transition={{ delay: 0.6 + (index * 0.1) }}
 		>
 			<div>
-				<ProjectTitle>
+				<h4>
 					{title}
-				</ProjectTitle>
+				</h4>
 				<ProjectDescription>
 					{description}
 				</ProjectDescription>

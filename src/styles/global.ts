@@ -8,6 +8,26 @@ export default createGlobalStyle`
 		margin: 0px;
 	}
 
+	h1, h2, h3, h4, p {
+		margin: 0px;
+	}
+
+	h1 {
+		font-size: 40px;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	h3 {
+		font-size: 26px;
+	}
+
+	h4 {
+		font-size: 18px;
+	}
+
 	body {
 		padding: 0px 250px;
 

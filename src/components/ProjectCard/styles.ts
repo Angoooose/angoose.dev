@@ -20,12 +20,7 @@ export const ProjectCardContainer = styled(motion.a)`
 	}
 `;
 
-export const ProjectTitle = styled.div`
-	font-size: 18px;
-	font-weight: 700;
-`;
-
-export const ProjectDescription = styled.div`
+export const ProjectDescription = styled.p`
 	color: ${({ theme }) => theme.colors.primary[200]};
 	margin-top: 5px;
 `;
