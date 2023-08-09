@@ -5,6 +5,7 @@ export const theme: DefaultTheme = {
         primary: {
             100: '#d0cece',
             200: '#787474',
+            400: '#4d4545',
             700: '#2d2b2b',
             800: '#292727',
             900: '#1c1b1b'
