@@ -56,4 +56,27 @@ export default createGlobalStyle`
 		color: white;
 		text-decoration: none;
 	}
+
+	::-webkit-scrollbar {
+		background-color: #fff;
+		width: 14px;
+	}
+
+	::-webkit-scrollbar-track {
+		background-color: ${({ theme }) => theme.colors.primary[900]};
+	}
+
+	::-webkit-scrollbar-thumb {
+		background-color: ${({ theme }) => theme.colors.primary[400]};
+		border-radius: 16px;
+		border: 4px solid ${({ theme }) => theme.colors.primary[900]};
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+		background-color: ${({ theme }) => theme.colors.primary[200]};
+	}
+
+	::-webkit-scrollbar-button {
+		display: none;
+	}
 `;
