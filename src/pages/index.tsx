@@ -5,6 +5,7 @@ import { NavigationBar } from '@components/NavigationBar';
 import { SectionLabel } from '@components/common';
 import { Work } from '@components/Work';
 import { getAnimationProps } from '@utils/motion';
+import { Footer } from '@components/Footer';
 
 export default function Home() {
 	return (
@@ -60,6 +61,7 @@ export default function Home() {
 						index={6}
 					/>
 				</ProjectsGrid>
+				<Footer/>
 			</HomePageContainer>
 		</>
 	)
