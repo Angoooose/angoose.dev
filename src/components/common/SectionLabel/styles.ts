@@ -11,4 +11,8 @@ export const SectionLabelContainer = styled(motion.label)`
 	& > :first-child {
 		margin-right: 10px;
 	}
+
+	@media (max-width: 980px) {
+		justify-content: center;
+	}
 `;
