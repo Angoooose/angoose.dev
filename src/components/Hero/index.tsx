@@ -13,7 +13,7 @@ export const Hero: FC = () => {
 				I make things for the web.
 			</HeroTitle>
 			<HeroDescription transition={{ delay: 0.3 }} {...getAnimationProps(2)}>
-				{'I\'m a full-stack software engineer from the U.S. I take passion in building modern and intuitive frontends, and performant and scaleable backends.'}
+				{'I\'m a full-stack software engineer from the U.S. I take passion in building modern, intuitive frontends, and high-performing, scalable backends.'}
 			</HeroDescription>
 		</HeroContainer>
 	);
